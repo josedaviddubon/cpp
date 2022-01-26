@@ -1,0 +1,3 @@
+Este es un archivo de texto que nada mas existe para
+explicar el pull de github desde vscode, no es triste, pero es normal que las 
+cosas solo existen para una sola cosa.
