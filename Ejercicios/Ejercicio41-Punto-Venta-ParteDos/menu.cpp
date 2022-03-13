@@ -2,6 +2,8 @@
 
 using namespace std;
 
+extern void productos(int opcion);
+
 void menu()
 {
 
@@ -24,6 +26,13 @@ void menu()
     cout << "3- Reposteria: " << endl;
     cout << "0- Salir: " << endl;
     cin >> opcion; 
+
+    if(opcion == 0)
+    {
+        break;
+    }
+    
+    productos(opcion);
 
     }   
 
