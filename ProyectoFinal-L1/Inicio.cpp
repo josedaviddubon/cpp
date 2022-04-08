@@ -7,7 +7,7 @@
 using namespace std;
 
 
-int main(){
+int pinwuino(){
 
     bool pinguino = false;
     int participante = 1, participantes = 2, numeroElegido = 0;
