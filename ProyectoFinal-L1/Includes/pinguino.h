@@ -6,4 +6,4 @@ int pinwuino();
 
 int pedidos(int );
 
-void agregarPedido(string, int , double);
+//void agregarPedido(string, int , double);

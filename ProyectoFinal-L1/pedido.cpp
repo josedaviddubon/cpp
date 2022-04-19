@@ -23,10 +23,10 @@ void pedido(int opcion)
         switch (opcionProducto)
         {
         case 1:
-            agregarPedido("", 0 , 0);
+           //agregarPedido(" ", 0 , 0.0);
             break;
         case 2:
-            agregarPedido("", 0 , 0);
+            //agregarPedido(" ", 0 , 0.0);
             break;
             default:
             {
@@ -54,13 +54,13 @@ void pedido(int opcion)
         switch (opcionProducto)
         {
         case 1:
-            agregarPedido("", 0 , 0);
+             //agregarPedido(" ", 0 , 0.0);
             break;
         case 2:
-            agregarPedido("", 0 , 0);
+           //agregarPedido(" ", 0 , 0.0);
             break;
         case 3:
-            agregarPedido("", 0 , 0);
+           //agregarPedido(" ", 0 , 0.0);
             break;
             default:
             {
@@ -88,13 +88,13 @@ void pedido(int opcion)
         switch (opcionProducto)
         {
         case 1:
-            agregarPedido("", 0 , 0);
+            //agregarPedido(" ", 0 , 0.0);
             break;
         case 2:
-            agregarPedido("", 0 , 0);
+             //agregarPedido(" ", 0 , 0.0);
             break;
         case 3:
-            agregarPedido("", 0 , 0);
+             //agregarPedido(" ", 0 , 0.0);
             break;            
             default:
             {
