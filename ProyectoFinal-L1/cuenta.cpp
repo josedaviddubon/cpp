@@ -1,5 +1,5 @@
 #include <iostream>
-#include "includes/pinguino.h"
+#include "Includes/pinguino.h"
 
 using namespace std;
 
@@ -39,7 +39,7 @@ void menu()
     }
     if (opcion == 4)
     {
-        pinwuino();
+        pinwuinos();
     }
     else
     {

@@ -1,10 +1,8 @@
 #include <iostream>
-#include "includes/pinguino.h"
-
 using namespace std;
 
 
-void pedido(int opcion)
+void pedidos(int opcion)
 {
     system("cls");
 
@@ -23,10 +21,10 @@ void pedido(int opcion)
         switch (opcionProducto)
         {
         case 1:
-           //agregarPedido(" ", 0 , 0.0);
+           //agregarPedido("Esto que", 0 , 0.0);
             break;
         case 2:
-            //agregarPedido(" ", 0 , 0.0);
+            //agregarPedido("a", 0 , 0.0);
             break;
             default:
             {
@@ -54,13 +52,13 @@ void pedido(int opcion)
         switch (opcionProducto)
         {
         case 1:
-             //agregarPedido(" ", 0 , 0.0);
+              //agregarPedido("Esto que", 0 , 0.0);
             break;
         case 2:
-           //agregarPedido(" ", 0 , 0.0);
+            //agregarPedido("Esto que", 0 , 0.0);
             break;
         case 3:
-           //agregarPedido(" ", 0 , 0.0);
+           //agregarPedido("Esto que", 0 , 0.0);
             break;
             default:
             {
@@ -88,13 +86,13 @@ void pedido(int opcion)
         switch (opcionProducto)
         {
         case 1:
-            //agregarPedido(" ", 0 , 0.0);
+            //agregarPedido("Esto que", 0 , 0.0);
             break;
         case 2:
-             //agregarPedido(" ", 0 , 0.0);
+             //agregarPedido("Esto que", 0 , 0.0);
             break;
         case 3:
-             //agregarPedido(" ", 0 , 0.0);
+             //agregarPedido("Esto que", 0 , 0.0);
             break;            
             default:
             {

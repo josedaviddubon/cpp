@@ -7,7 +7,7 @@
 using namespace std;
 
 
-int pinwuino(){
+int pinwuinos(){
 
     bool pinguino = false;
     int participante = 1, participantes = 2, numeroElegido = 0;
@@ -52,9 +52,12 @@ int pinwuino(){
             cout << "JA! Te ha tocado Pagar la cuenta\n"; 
             Estado(1);
             pinguino = true;
+            system("Pause");
+
         }
         
     }
         cout << "El Participante: " << participante << " Pagara la cuenta..\n";
+        system("Pause");
     
 }

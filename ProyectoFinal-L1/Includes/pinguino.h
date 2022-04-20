@@ -1,9 +1,11 @@
 #include <iostream>
 
+void menu();
+
 void Estado(int i);
 
-int pinwuino();
+int pinwuinos();
 
-int pedidos(int );
+void pedidos(int);
 
 //void agregarPedido(string, int , double);

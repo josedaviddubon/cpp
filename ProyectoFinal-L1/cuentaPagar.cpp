@@ -5,12 +5,12 @@ using namespace std;
 double subtotal, total;
 string listaPedidos;
 
-void agregarPedido(string descripcion,int cantidad, double precio)
-{
-    listaPedidos = listaPedidos + descripcion + '\n';
-    subtotal = subtotal + (cantidad * precio);
-    total = (subtotal * 0.15 + subtotal);
-}
+// void agregarPedido(string descripcion,int cantidad, double precio)
+// {
+//      listaPedidos = listaPedidos + descripcion + '\n';
+//      subtotal = subtotal + (cantidad * precio);
+//      total = (subtotal * 0.15 + subtotal);
+// }
 
 
 void pinwuino()
