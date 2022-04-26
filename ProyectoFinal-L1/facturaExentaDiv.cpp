@@ -4,7 +4,7 @@ using namespace std;
 
 void factura()
 {
-    double subtotal = 0, total =0, impuesto = 0.15, calculoDescuento = 0, calculoImpuesto = 0;
+    double subtotal = 0, total =0, porcada = 0,impuesto = 0.15, calculoDescuento = 0, calculoImpuesto = 0;
     int descuento = 0, participantes = 0;
     char estaExenta;
 
@@ -26,7 +26,8 @@ void factura()
         {
             calculoDescuento = (subtotal * descuento)/ 100;
             calculoImpuesto = (subtotal - calculoDescuento)  * 0.00;
-            total = (subtotal - calculoDescuento + calculoImpuesto)/ participantes;
+            porcada = (subtotal - calculoDescuento + calculoImpuesto)/ participantes;
+            total = (subtotal - calculoDescuento + calculoImpuesto);
 
         }
     else
@@ -40,4 +41,5 @@ void factura()
     //salida
             cout << endl;
             cout << "Total a pagar es: " << total;
+            cout << "Divido: " << porcada;
 }
