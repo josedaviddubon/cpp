@@ -1,4 +1,5 @@
 #include <iostream>
+#include "includes/pinguino.h"
 using namespace std;
 
 
@@ -11,103 +12,32 @@ void pedidos(int opcion)
     {
     case 1:
     {   
-        cout << "PEDIDOS" << endl;
+        cout << "Agregar Precios y dividir cuentas:" << endl;
         cout << "*****************" << endl;
         cout << endl;
 
-        cout << "Ingrese una opicion: ";
-        cin >> opcionProducto;
-
-        switch (opcionProducto)
-        {
-        case 1:
-           //agregarPedido("Esto que", 0 , 0.0);
-            break;
-        case 2:
-            //agregarPedido("a", 0 , 0.0);
-            break;
-            default:
-            {
-                cout << "Opcion no valida";
-                return;
-                break;
-            }
-        }
+        factura();
 
         cout << endl;
-        cout << "PEDIDO agregado" << endl << endl;
+        cout << "Agregar Precios y dividir cuentas: Realizado" << endl << endl;
         system("pause");
 
         break;
     }
     case 2:
     {   
-        cout << "CALCULAR TOTAL" << endl;
+        cout << "Dejarlo en manos del Pinguino: " << endl;
         cout << "*************" << endl;
         cout << endl;
 
-        cout << "Ingrese una opicion: ";
-        cin >> opcionProducto;
-
-        switch (opcionProducto)
-        {
-        case 1:
-              //agregarPedido("Esto que", 0 , 0.0);
-            break;
-        case 2:
-            //agregarPedido("Esto que", 0 , 0.0);
-            break;
-        case 3:
-           //agregarPedido("Esto que", 0 , 0.0);
-            break;
-            default:
-            {
-                cout << "Opcion no valida";
-                return;
-                break;
-            }
-        }
+        pinwuinos();
 
         cout << endl;
-        cout << "CALCULO REALIZADO" << endl << endl;
+        cout << "Dejarlo en manos del Pinguino: Realizado" << endl << endl;
         system("pause");
 
         break;
     }    
-    case 3:
-    {   
-        cout << "DIVIDIR CUENTA" << endl;
-        cout << "**********" << endl;
-        cout << endl;
-
-        cout << "Ingrese una opicion: ";
-        cin >> opcionProducto;
-
-        switch (opcionProducto)
-        {
-        case 1:
-            //agregarPedido("Esto que", 0 , 0.0);
-            break;
-        case 2:
-             //agregarPedido("Esto que", 0 , 0.0);
-            break;
-        case 3:
-             //agregarPedido("Esto que", 0 , 0.0);
-            break;            
-            default:
-            {
-                cout << "Opcion no valida";
-                return;
-                break;
-            }
-        }
-
-        cout << endl;
-        cout << "Cuenta Dividida" << endl << endl;
-        system("pause");
-
-        break;
-    }
 
     default:
         break;

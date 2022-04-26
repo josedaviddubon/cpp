@@ -21,10 +21,8 @@ void menu()
     cout << endl;
 
 
-    cout << "1- Agregar Pedidos: " << endl;
-    cout << "2- Calcular Total: " << endl;
-    cout << "3- Divir Cuenta: " << endl;
-    cout << "4- Dejarlo en manos del Pinguino: " << endl;
+    cout << "1- Agregar Precios y dividir cuentas: " << endl;
+    cout << "2- Dejarlo en manos del Pinguino: " << endl;
     cout << "0- Salir: " << endl;
 
 
@@ -37,7 +35,7 @@ void menu()
     {
         break;
     }
-    if (opcion == 4)
+    if (opcion == 2)
     {
         pinwuinos();
     }

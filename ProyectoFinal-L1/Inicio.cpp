@@ -10,7 +10,7 @@ using namespace std;
 int pinwuinos(){
 
     bool pinguino = false;
-    int participante = 1, participantes = 2, numeroElegido = 0;
+    int participante = 1, participantes = 2, numeroElegido = 0, asignado = 0;
     const int PinguinoAsignado = 2; 
 
     //Iniciando el numero elegido
@@ -54,9 +54,13 @@ int pinwuinos(){
             pinguino = true;
             system("Pause");
 
+            int participante = asignado; 
+            facturaPinguino(asignado);
+
         }
         
     }
+        cout << endl;
         cout << "El Participante: " << participante << " Pagara la cuenta..\n";
         system("Pause");
     

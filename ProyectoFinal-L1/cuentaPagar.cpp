@@ -7,7 +7,7 @@ string listaPedidos;
 
 // void agregarPedido(string descripcion,int cantidad, double precio)
 // {
-//      listaPedidos = listaPedidos + descripcion + '\n';
+//       listaPedidos = listaPedidos + descripcion + '\n';
 //      subtotal = subtotal + (cantidad * precio);
 //      total = (subtotal * 0.15 + subtotal);
 // }
@@ -20,9 +20,6 @@ void pinwuino()
     cout << "PINGUINO" << endl;
     cout << "********" << endl;
     cout << endl;
-
-    cout << "Pedidos: " << endl;
-    cout << listaPedidos;
 
     cout << endl;
     cout << "Subtotal: " << subtotal;

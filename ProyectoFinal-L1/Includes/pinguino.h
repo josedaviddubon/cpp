@@ -8,4 +8,8 @@ int pinwuinos();
 
 void pedidos(int);
 
+void factura();
+
+void facturaPinguino(int asignado);
+
 //void agregarPedido(string, int , double);

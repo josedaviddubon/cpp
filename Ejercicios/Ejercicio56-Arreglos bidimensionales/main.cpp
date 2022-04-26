@@ -4,16 +4,6 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    // string nombres[3][2];
-
-    // nombres[0] [0] = "Juan";
-    // nombres[0] [1] = "Perez";
-
-    // nombres[1] [0] = "Pedro";
-    // nombres[1] [1] = "Mejia";
-
-    // nombres[2] [0] = "Maria";
-    // nombres[2] [1] = "Sabillon";
 
     int filas = 4, columnas = 2;
 
